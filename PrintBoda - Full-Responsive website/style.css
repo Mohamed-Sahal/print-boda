@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	margin: 0;
+	padding: 0;
+	}
+.navbar-brand h3{
+	color: #d5d5d5;
+}
+.navbar-toggler{
+	outline: none;
+}
+.bg-dark{
+	background-image: linear-gradient(to right, #091e92 0%, #0051ff 100%);
+}
+.carousel-inner img{
+	width: 100%;
+	height: 90%;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+.card{
+	background-image: linear-gradient(to right, #091e92 0%, #0051ff 100%);
+	color: #fff;
+}
+.modal-card{
+	background: none;
+
+}
+label {
+    display: block;
+    margin: 0 0 .28571429rem;
+    color: rgba(19, 18, 18, 0.87);
+    font-size: .88857143em;
+    font-weight: 700;
+    text-transform: none;
+}
+.form-control-file{
+	border: 1px solid #d5d5d5;
+	border-radius: .25rem;
+}
+.connect-h2{
+	padding: 1rem;
+}
+.fa{
+	padding-right: 1.5rem;
+	font-size: 3.5rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-instagram{
+	color: #cd486b;
+}
+.fa-whatsapp{
+	color: #01E675;
+}
+.fa-youtube-play{
+	color: #bb0000;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-twitter:hover,
+.fa-youtube-play:hover{
+color: #d5d5d5;
+}
+footer{
+	background-color: rgb(58, 55, 55);
+	color: rgb(236, 233, 233);
+}
+.link{
+	color: #d5d5d5;
+}
+.link:hover{
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.my-4{
+	background-color: #fff;
+}
+
+.about-us{
+	font-size: 85%;
+	}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+	.carousel-inner img{
+		width: 100%;
+		height: 65%;
+	}
+	.fa{
+		padding-right: 1.5rem;
+		font-size: 3rem;
+	}
+	.about-us{
+		font-size: 70%;
+		}
+  }
+
+
+
+  @media (max-width: 768px) {
+	.carousel-inner img{
+		width: 100%;
+		height: 50%;
+	}
+	.fa{
+		padding-right: 1rem;
+		font-size: 3rem;
+	}
+	.about-us{
+	font-size: 100%;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+	.h3-logo{
+		font-size: 100%;
+	}
+	.carousel-inner img{
+		width: 100%;
+		height: 50%;
+	}
+	.fa{
+		padding-right: .7rem;
+		font-size: 2rem;
+	}
+	.about-us{
+		font-size: 65%;
+		}
+	.link-2{
+		font-size: 70%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
